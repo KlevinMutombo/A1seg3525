@@ -197,7 +197,8 @@ to {
   }
 
   .work-section {
-    scroll-margin-top: 10px; 
+    scroll-margin-top: 400px; 
+    margin-top: 125px;
   }
 
 .timeline {
@@ -255,3 +256,67 @@ to {
     border-radius: 6px;
     position: relative;
   }
+
+  .card-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* small gap between cards */
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .card {
+    flex: 1 1 30%; /* shrink width to fit 3 per row */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    transition: 0.3s ease;
+    background-color: white;
+    padding: 16px;
+    min-width: 280px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  }
+  
+  .container {
+    padding: 0;
+  }
+
+  .projects-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .project-circle {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #000;
+  }
+  
+  .project-circle img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-circle:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  }
+  
+  .project-circle p {
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  
+
+  
+
+  

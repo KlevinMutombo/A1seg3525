@@ -193,12 +193,14 @@ to {
 }
 
 .about-section {
+    margin-top: 100px;
     scroll-margin-top: 100px; 
   }
 
   .work-section {
-    scroll-margin-top: 400px; 
-    margin-top: 125px;
+    margin-top: 80px;
+    scroll-margin-top: 140px; 
+    /*margin-top: 125px;*/
   }
 
 .timeline {
@@ -284,6 +286,7 @@ to {
   }
 
   .projects-section {
+    margin-top: 100px;
     padding: 80px 0;
     background-color: #f8f9fa;
   }
@@ -350,9 +353,15 @@ to {
   gap: 10px;
 }
 
-.contact-button:hover {
-  background-color: #0a66c2;
+
+
+#contactme {
+  scroll-margin-top: 140px; 
 }
+
+
+
+
 
   
   

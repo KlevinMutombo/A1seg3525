@@ -214,7 +214,7 @@ to {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #ea4020;
+    background-color: #000000;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -242,7 +242,7 @@ to {
     height: 20px;
     right: -10px;
     background-color: #292929;
-    border: 4px solid #ea4020;
+    border: 4px solid #ffffff;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
